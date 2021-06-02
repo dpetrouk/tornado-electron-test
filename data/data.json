@@ -1,0 +1,31 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "type": "meeting",
+      "date": "May 30th, 2021",
+      "location": "Moscow",
+      "participants": ["Helen", "Grigory", "Alexandra"]
+    },
+    {
+      "id": 2,
+      "type": "meeting",
+      "date": "June 1st, 2021",
+      "location": "Moscow",
+      "participants": ["Helen", "Vitaly", "Nikolay"]
+    },
+    {
+      "id": 3,
+      "type": "call",
+      "date": "June 2nd, 2021",
+      "participants": ["Eugene", "Nikolay", "Grigory"]
+    },
+    {
+      "id": 4,
+      "type": "call",
+      "date": "June 3rd, 2021",
+      "participants": ["Nikolay", "Grigory"]
+    }
+  ],
+  "currentEventId": 1
+}
