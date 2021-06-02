@@ -1,0 +1,14 @@
+{
+  "name": "tornado-electron-test",
+  "version": "1.0.0",
+  "description": "Fetching data from the server on tornado and displaying it via the electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Dmitry Petrouk",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.0.1"
+  }
+}
