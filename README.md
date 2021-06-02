@@ -16,6 +16,10 @@ The app will display data from server (based on Tornado)
 
 The app will run without fetching any external data.
 
+### Via script
+
+In `scripts/` directory you can find two bash scripts which are equivalent to two commands above.
+
 ### Manually
 
 Node 16.x, Python3 and pip3 should be installed.
@@ -35,4 +39,4 @@ You can check for availability of data on this server here:
 
 `npm start`
 
-You will find there displayed data from the running server.
+You will find there displayed data that was fetched from the running server.
