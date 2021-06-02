@@ -1,0 +1,12 @@
+#!/bin/bash
+
+sudo add-apt-repository universe
+sudo apt-get update
+sudo apt-get install -y git curl python3 python3-pip
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install -y nodejs
+pip3 install tornado
+git clone https://github.com/dpetrouk/tornado-electron-test.git
+cd tornado-electron-test
+npm install
+python3 tornado_web_server.py & npm start
