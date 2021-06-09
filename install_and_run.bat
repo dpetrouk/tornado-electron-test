@@ -1,2 +1,3 @@
 call npm install
-call npm start
+start /B python tornado_web_server.py
+start /B npm run-script run-app
