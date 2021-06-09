@@ -4,10 +4,10 @@
   "description": "Fetching data from the server on tornado and displaying it via the electron app",
   "main": "main.js",
   "scripts": {
-    "install-tornado": "pip3 install tornado",
+    "postinstall": "pip3 install tornado",
     "run-server": "python3 tornado_web_server.py",
     "run-app": "electron .",
-    "postinstall": "npm-run-all install-tornado --parallel run-server run-app"
+    "start": "npm-run-all --parallel run-server run-app"
   },
   "author": "Dmitry Petrouk",
   "license": "ISC",
